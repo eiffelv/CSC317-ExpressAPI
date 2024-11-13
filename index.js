@@ -85,7 +85,7 @@ if (online !== true) {
     res.status(204).send();
   });
 
-  
+
 /*
     SQLite Implementation
 */
@@ -171,7 +171,7 @@ if (online !== true) {
         res.status(500).json({ error: err.message });
       }
       if (this.changes === 0) {
-        res.status(404).json({ error: "To-Do item not found" });
+        res.status(404).send("To-Do item not found");
       } else {
         res.status(204).send();
       }

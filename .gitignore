@@ -131,3 +131,6 @@ dist
 
 # package locks
 package-lock.json
+
+# todos.db
+todos.db
