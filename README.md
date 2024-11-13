@@ -2,7 +2,7 @@
 
 Eiffel Valentino's Implementation of Todos API from CSC 317 Class
 
-This server can run either with Hardcoded Data or using SQLite.
+This server can run either with Hardcoded Data or using SQLite. [See below](#choosing-between-hardcoded-or-sqlite-database)
 
 ## API Documentation
 
