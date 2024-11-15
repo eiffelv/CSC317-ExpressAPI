@@ -2,9 +2,9 @@
 
 Eiffel Valentino's Implementation of Todos API from CSC 317 Class
 
-- This server can run either with Hardcoded Data or using SQLite.
-- By default, the server will be using Hardcoded Data for this Assignment.
-- [See below on switching](#choosing-between-hardcoded-or-sqlite-database)
+- **By default, the server will be using _Hardcoded Data_ as a requirement for this Assignment.**
+  - This server has code to handle both Hardcoded Data and SQLite.
+  - For SQLite only implementation, this will be in [this repository](https://github.com/eiffelv/TodosAPI-ExpressSQLite).
 
 ## API Documentation
 
@@ -199,11 +199,11 @@ By default, the server has the following data created:
   }
 ]
 ```
-If using SQLite, the server will instead open the <code>todos.db</code> file. If the file does not exists or does not have data, it will automatically populate data from above.
+If using SQLite, the server will instead open a file named <code>todos.db</code>. If the file does not exists or does not have data, it will automatically populate data from above.
 
 ## Choosing between Hardcoded or SQLite Database
 
-In <code>index.js</code> within Line 4, you will see the following code:
+In <code>index.js</code> Line 4, you will see the following code:
 ```javascript
 const online = false; // Uncomment for Hardcoded data
 // const online = true; // Uncomment for SQLite database
